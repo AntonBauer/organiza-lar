@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizaLar.Cli", "OrganizaLar.Cli\OrganizaLar.Cli.csproj", "{8A79AF05-CC8F-4FE2-A3E9-2B3033EDF501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizaLar.Domain", "OrganizaLar.Domain\OrganizaLar.Domain.csproj", "{DE6DA4AE-D327-4312-9C2A-A1DF482F4434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A79AF05-CC8F-4FE2-A3E9-2B3033EDF501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A79AF05-CC8F-4FE2-A3E9-2B3033EDF501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A79AF05-CC8F-4FE2-A3E9-2B3033EDF501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A79AF05-CC8F-4FE2-A3E9-2B3033EDF501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6DA4AE-D327-4312-9C2A-A1DF482F4434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6DA4AE-D327-4312-9C2A-A1DF482F4434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6DA4AE-D327-4312-9C2A-A1DF482F4434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6DA4AE-D327-4312-9C2A-A1DF482F4434}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
