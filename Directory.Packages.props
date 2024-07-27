@@ -17,6 +17,6 @@
     <PackageVersion Include="coverlet.collector" Version="6.0.0" />
 
     <!-- Personal packages -->
-    <PackageVersion Include="GeneralDomain" Version="1.0.7" />
+    <PackageVersion Include="Abauer.GeneralDomain" Version="1.0.7" />
   </ItemGroup>
 </Project>
