@@ -7,7 +7,7 @@
     <!-- EF packages -->
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
-    
+
     <!-- Personal packages -->
     <PackageVersion Include="GeneralDomain" Version="1.0.7" />
   </ItemGroup>
