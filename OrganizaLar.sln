@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizaLar.Domain", "src\O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizaLar.Cli", "src\OrganizaLar.Cli\OrganizaLar.Cli.csproj", "{4AAAE3E5-8137-412A-84EE-35F691012A67}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{05D9F50D-6FBB-493B-9096-BFA870CF882F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizaLar.Domain.Tests", "test\OrganizaLar.Domain.Tests\OrganizaLar.Domain.Tests.csproj", "{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,9 +50,22 @@ Global
 		{4AAAE3E5-8137-412A-84EE-35F691012A67}.Release|x64.Build.0 = Release|Any CPU
 		{4AAAE3E5-8137-412A-84EE-35F691012A67}.Release|x86.ActiveCfg = Release|Any CPU
 		{4AAAE3E5-8137-412A-84EE-35F691012A67}.Release|x86.Build.0 = Release|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Debug|x64.Build.0 = Debug|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Debug|x86.Build.0 = Debug|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Release|x64.ActiveCfg = Release|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Release|x64.Build.0 = Release|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Release|x86.ActiveCfg = Release|Any CPU
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3477D8CC-1560-481C-9419-C0AD65944D7A} = {5E9AF96B-214A-4278-A8C7-AF71D2A53917}
 		{4AAAE3E5-8137-412A-84EE-35F691012A67} = {5E9AF96B-214A-4278-A8C7-AF71D2A53917}
+		{C28EE52E-5D56-4F12-A6EE-A9B90776B83A} = {05D9F50D-6FBB-493B-9096-BFA870CF882F}
 	EndGlobalSection
 EndGlobal
