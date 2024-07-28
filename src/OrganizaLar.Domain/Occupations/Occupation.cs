@@ -13,7 +13,7 @@ public sealed class Occupation : Entity<OccupationId, Guid>
     private Occupation(OccupationId id, Material material, Location location) : base(id) =>
         (Material, Location) = (material, location);
 
-    public Result<Occupation> Create(Material material, Location location) =>
+    public static Result<Occupation> Create(Material material, Location location) =>
         Result.Success(new Occupation(OccupationId.CreateNew(),
                                       material,
                                       location));
