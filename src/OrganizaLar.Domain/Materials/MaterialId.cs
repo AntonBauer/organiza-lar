@@ -2,13 +2,13 @@ using GeneralDomain.Entities;
 
 namespace OrganizaLar.Domain.Materials;
 
-public record MaterialId : Id<Guid>
+public record MaterialId : Id<long>
 {
-    private MaterialId(Guid value) : base(value) { }
+    private MaterialId(long value) : base(value) { }
 
-    public static MaterialId CreateFrom(Guid value) =>
+    public static MaterialId CreateFrom(long value) =>
         new(value);
 
     public static MaterialId CreateNew() =>
-        new(Guid.NewGuid());
+        new(default(long));
 }

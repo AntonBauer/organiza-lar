@@ -2,13 +2,13 @@ using GeneralDomain.Entities;
 
 namespace OrganizaLar.Domain.Locations;
 
-public record LocationId : Id<Guid>
+public record LocationId : Id<long>
 {
-    private LocationId(Guid value) : base(value) { }
+    private LocationId(long value) : base(value) { }
 
-    public static LocationId CreateFrom(Guid value) =>
+    public static LocationId CreateFrom(long value) =>
         new(value);
 
     public static LocationId CreateNew() =>
-        new(Guid.NewGuid());
+        new(default(long));
 }
